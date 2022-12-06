@@ -175,9 +175,12 @@ console.log(me);
 
 const esercizio14Array = []
 
+esercizio14Array.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+console.log(esercizio14Array);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+esercizio14Array[9] = 100
+console.log(esercizio14Array);
