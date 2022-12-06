@@ -43,10 +43,10 @@ if (esercizio3Numero % 5 === 0) {
 */
 console.log('--------Esercizio 4--------');
 
-const esercizio4Numero1 = 8
-const esercizio4Numero2 = 2
+const esercizio4Numero1 = 2
+const esercizio4Numero2 = 10
 
-if (esercizio4Numero1 + esercizio4Numero2 === 8 || esercizio4Numero1 - esercizio4Numero2 === 8) {
+if (esercizio4Numero1 + esercizio4Numero2 === 8 || esercizio4Numero1 - esercizio4Numero2 === 8 || esercizio4Numero2 - esercizio4Numero1 === 8) {
   console.log('la somma o sottrazione dei due numeri è uguale a 8');
 } else if (esercizio4Numero1 === 8 && esercizio4Numero2 === 8) {
   console.log('entrambi i numeri sono uguali a 8');
